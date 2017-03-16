@@ -1,0 +1,26 @@
+{
+  "name": "ts-arcgis4x",
+  "version": "1.0.0",
+  "description": "App prueba de la API de JavaScript 4.X desarrollado en TypeScript y Node",
+  "main": "index.js",
+  "scripts": {
+    "lint": "tslint './app/*.ts'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgregoriorincon/ts-arcgis4x.git"
+  },
+  "keywords": ["typescript", "arcgis", "JS API 4.x"],
+  "author": "Jose Gregorio Rincon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jgregoriorincon/ts-arcgis4x/issues"
+  },
+  "homepage": "https://github.com/jgregoriorincon/ts-arcgis4x#readme",
+  "devDependencies": {
+    "tslint": "^4.2.0",
+    "dojo-typings": "^1.11.6",
+    "typescript": "^2.1.4",
+    "@types/arcgis-js-api": "^4.2.0"
+  }
+}
